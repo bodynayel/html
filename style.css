@@ -1,0 +1,78 @@
+.box{
+    width: 250px;
+    height:150px;
+    background-color: gold;
+    margin:50px;
+    
+    animation: myMove 5s infinite;
+}
+
+@keyframes myMove {
+
+    0% {
+  
+      background-color: yellow;
+  
+      transform: rotate(0deg);
+  
+    }
+  
+    25% {
+  
+      background-color: red;
+  
+      transform: skew(50deg);
+  
+    }
+  
+    50% {
+  
+      background-color: blue;
+  
+      transform: scale(2);
+  
+    }
+  
+    75% {
+  
+      background-color: green;
+  
+      transform: rotate(45deg);
+  
+    }
+  
+  }@keyframes myMove {
+
+  0% {
+
+    background-color: yellow;
+
+    transform: rotate(0deg);
+
+  }
+
+  25% {
+
+    background-color: red;
+
+    transform: skew(50deg);
+
+  }
+
+  50% {
+
+    background-color: blue;
+
+    transform: scale(2);
+
+  }
+
+  75% {
+
+    background-color: green;
+
+    transform: rotate(45deg);
+
+  }
+
+}
